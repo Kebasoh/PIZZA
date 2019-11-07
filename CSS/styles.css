@@ -79,3 +79,19 @@ h3{
     
     
 }
+#hform2 {
+	width: 50%;
+	align-items: center;
+}
+.card {
+	justify-items: center;
+	background-image: ;
+	color: white;
+}
+
+#hform2 {
+	justify-content: center;
+}
+#pop{
+    margin-left: 40%;
+}

@@ -34,12 +34,61 @@
                     <img src="https://bit.ly/2WTu8QT" height="250px" width="250px">
                     <button type="submit" form="form1" value="Submit">ADD TO CART&nbsp; &nbsp; <i class="fa fa-shopping-bag" aria-hidden="true"></i></button>
                 </div>
-
+                <div id="pop">
+                        <!-- Material form contact -->
+                        <div class="card">
+                            <h5 class="card-header danger-color white-text text-center py-4">
+                                <strong>ORDER</strong>
+                            </h5>
+                            <!--Card content-->
+                            <div class="card-body px-lg-5 pt-0">
+                                <!-- Form -->
+                                <form class="text-center" style="color: #757575;" action="#!">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <div id="hform2">
+                                        <form>
+                                            <label for="size" style="color: white">Size</label>
+                                            <select class="browser-default custom-select" id="size">
+                                                <option value="">Choose option</option>
+                                                <option value="1000">Large =ksh 1000</option>
+                                                <option value="600">Medium =ksh 600</option>
+                                                <option value="300">Small= ksh300</option>
+                                            </select><br>
+                                            <label for="crust" style="color: white">Crust</label>
+                                            <select class="browser-default custom-select" id="crust">
+                                                <option value="">Choose option</option>
+                                                <option value="50">Crispy =ksh 50</option>
+                                                <option value="30">Stuffed=ksh 30</option>
+                                                <option value="70">Gluten-free =ksh 70</option>
+                                            </select><br>
+                                            <label for="toppings" name="toppings" style="color: white">Toppings</label>
+                                            <select class="browser-default custom-select" id="toppings">
+                                                <option value="">Choose option</option>
+                                                <option value="60">Cheese =ksh60</option>
+                                                <option value="60">pepperoni =ksh60</option>
+                                                <option value="60">onions =ksh60</option>
+                                            </select><br>
+                                            <label for="quantity" style="color: white">Quantity</label>
+                                            <input class="form-control" type="text" name="pizza" id="quan" placeholder="0"
+                                                max="" min="1"><br><br>
+                                            <button class="btn btn-success mx-auto d-block submit" type="submit" id="submit2"
+                                                onclick="getTotalAmount();"><strong>Checkout</strong></button>
+        
+                                        </form>
+                                        <!-- Form -->
+        
+                                    </div>
+        
+                            </div>
+                            <!-- Material form contact -->
        </div>
 
 
 
 
+    </div>
     </div>
 <script src="js/script.js"></script>
 <script src="js/jquery.js"></script>
