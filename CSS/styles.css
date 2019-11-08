@@ -83,27 +83,7 @@ h3{
     
     
 }
-#hform2 {
-	width: 100%;
-	align-items: center;
-}
-.card {
-	justify-items: center;
-	color: black;
-}
-
-#hform2 {
-	justify-content: center;
-}
-#pop{
+#form{
     margin-left: 40%;
-}
-#cart{
-    margin-left: 80%;
-    padding: 10px 20px;
 
-}
-#out{
-    margin-top: 3%;
-    margin-left: 45%;
 }
