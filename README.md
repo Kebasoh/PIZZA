@@ -20,7 +20,7 @@
 ## BDD.
   <img src="images/home.png">
 
-  - 
+  - At the home page you will just press the order button and it will take you to our favorite options of pizza.
 
 ## Project's live Link
  - Github link:
