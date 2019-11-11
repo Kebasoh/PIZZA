@@ -21,3 +21,7 @@ function getTotalAmount() {
     alert("You order will be delivered shortly")
     alert("Continue shoppping with us each and every time .")
 }
+
+
+
+
