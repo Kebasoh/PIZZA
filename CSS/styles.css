@@ -3,7 +3,7 @@
     background-position:center ;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 110vh;
     background-image:url("../images/pizza.jpg");
     
 
@@ -14,14 +14,25 @@
     font-family: 'Times New Roman', Times, serif;
     color:white;
     font-weight: bolder;
+    /* margin-top: 20%; */
 
     
     
 }
+#home p{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size:15px;
+}
+#home h2{
+    text-align: center;
+    color: white;
+}
 #btn{
     justify-content: center;
     display: flex;
-    margin-left: 45%;
+    margin-left: 40%;
     margin-top: 15%;
     padding: 20px 40px;
     font-size: 30px;
